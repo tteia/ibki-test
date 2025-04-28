@@ -139,7 +139,7 @@ header {
             width: calc(100% / 3 * 2);
             .cm-slider-wrap{
                 position: relative;
-                background-color: lemonchiffon;
+                background-color: orange;
                 border-radius: 5rem 5rem 5rem 10rem;
                 min-height: 500px;
                 height: 50rem;
@@ -192,36 +192,9 @@ header {
                     bottom: 0;
                     width: 60%;
                     height: 7rem;
-                    justify-content: space-between;
-                    align-items: center;
-                    .bar-wrap{
-                        width: 12rem;
-                        height: 0.4rem;
-                        border-radius: 2rem;
-                        background-color: var(--secondary-color);
-
-                        .progress-bar{
-                            display: block;
-                            width: 10px;
-                            height: inherit;
-                            background-color: #0d020f;
-
-                        }
-                    }
                     ul{
                         display: flex;
                     }
-                }
-                .control-btn-wrap::before{
-                    content: "";
-                    display: block;
-                    width: 10rem;
-                    height: 7.2rem;
-                    background: url(../images/deco_banner.svg) no-repeat;
-                    background-size: 100%;
-                    position: absolute;
-                    right: -4rem;
-                    bottom: -0.2rem;
                 }
             }
         }
@@ -241,7 +214,7 @@ header {
                         border-radius: 40rem;
                         height: 16rem;
                         padding: 2.5rem;
-
+                        
                         strong{
                             display: block;
                             font-size: 2rem;
